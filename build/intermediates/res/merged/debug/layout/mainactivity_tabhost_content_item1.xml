@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F4F0F4" >
+
+        <!-- 标题栏布局 -->
+
+        <RelativeLayout
+            android:id="@+id/title_relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#2FB7AA" >
+
+            <TextView
+                android:id="@+id/mainactivity_title_positioncity_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="成都"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/mainactivity_title_cityposition_spinner"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/mainactivity_title_positioncity_txt"
+                android:background="@drawable/spinner_bgd_no_pressed"
+                android:clickable="true" />
+
+            <ImageView
+                android:id="@+id/mainactivity_title_position_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/selector_title_map" />
+
+            <EditText
+                android:id="@+id/mainactivity_title_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/mainactivity_title_position_map"
+                android:layout_toRightOf="@id/mainactivity_title_cityposition_spinner"
+                android:background="@drawable/hotel_poi_detail_album_num_bg"
+                android:hint="输入商家、分类或商圈"
+                android:paddingLeft="30dp"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/mainactivity_title_search_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/mainactivity_title_edit"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/selector_title_search" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/view_pager_framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/title_relativelayout" >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/tabhost_content1_viewpager_layout"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                 />
+            
+            <RelativeLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="15dp" 
+            >
+
+             <ImageView
+                android:id="@+id/tab_first_viewpager_dot0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:layout_marginBottom="10dp"
+               
+                android:src="@drawable/selector_viewpager_dot"
+                android:clickable="true" />
+            
+            <ImageView
+                android:id="@+id/tab_first_viewpager_dot1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tab_first_viewpager_dot0"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                
+                android:clickable="true"
+                android:src="@drawable/selector_viewpager_dot" />
+            </RelativeLayout>
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/deal_viewpager_item1_Panic_buying_relat_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_pager_framelayout"
+            android:layout_marginTop="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/deal_viewpager_item1_panic_buying_time_layout"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#FCFCFC" >
+
+                <ImageView
+                    android:id="@+id/deal_viewpager_item1_panic_buying_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/bargain_title" />
+
+                <TextView
+                    android:id="@+id/deal_viewpager_item1_distance_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/deal_viewpager_item1_panic_buying_textview"
+                    android:text="距离开始"
+                    android:textColor="#745855"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/deal_viewpager_item1_timertask"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/deal_viewpager_item1_distance_start"
+                    android:text="09:11:11"
+                    android:textColor="#745855" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:background="#FCFCFC"
+                    android:button="@null"
+                    android:drawableRight="@drawable/ic_global_arrow_right_green"
+                    android:text="更多"
+                    android:textColor="#515051"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <GridView
+                android:id="@+id/deal_viewpager_item1_panic_buying_relat_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/deal_viewpager_item1_panic_buying_time_layout"
+                android:layout_marginTop="3dp"
+                android:horizontalSpacing="2dp"
+                android:numColumns="3"
+                android:stretchMode="columnWidth" >
+            </GridView>
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/tabhost_content_item1_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:layout_below="@id/deal_viewpager_item1_Panic_buying_relat_layout"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:horizontalSpacing="10dp"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" >
+        </GridView>
+
+        <TextView
+            android:id="@+id/you_like_Texeview"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/tabhost_content_item1_gridview"
+            android:layout_marginTop="10dp"
+            android:background="#FFF1DD"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text=" 猜你喜欢"
+            android:textColor="#745855"
+            android:textSize="15sp" />
+
+        <ListView
+            android:id="@+id/you_like_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="1535dp"
+            android:layout_below="@id/you_like_Texeview"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:divider="#00000000"
+            android:dividerHeight="8dp" >
+        </ListView>
+    </RelativeLayout>
+
+</ScrollView>

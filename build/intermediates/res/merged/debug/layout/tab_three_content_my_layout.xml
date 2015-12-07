@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F0F4"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/titlt_background" >
+
+        <ImageView
+            android:id="@+id/title_back_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:clickable="true"
+            android:src="@drawable/selector_title_back" />
+
+        <ImageView
+            android:id="@+id/title_mei_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/title_back_img"
+            android:clickable="true"
+            android:src="@drawable/ic_action_home" />
+
+        <TextView
+            android:id="@+id/title_meishi_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/title_mei_img"
+            android:text="我的"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/title_search_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:src="@drawable/selector_tabthree_title_email" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/tab_threeitem_loginbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="#FF9814"
+                    android:drawableTop="@drawable/ic_account_avatar_default"
+                    android:paddingTop="15dp"
+                    android:text="请点击登录"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="2dp"
+                    android:background="#FCFCFC"
+                    android:divider="#745855"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:showDividers="middle" >
+
+                    <RadioButton
+                        android:id="@+id/tab_threeitem_groupticket_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/ic_user_coupon"
+                        android:gravity="center"
+                        android:text="美团券"
+                        android:textColor="#745855"
+                        android:textSize="20sp" />
+
+                    <RadioButton
+                        android:id="@+id/tab_threeitem_mycollection_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/ic_user_main_favorite"
+                        android:gravity="center"
+                        android:text="我的收藏"
+                        android:textColor="#745855"
+                        android:textSize="20sp" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/tab_threeitem_order_listview"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:divider="#745855"
+                android:dividerHeight="1dp"
+                android:layout_marginTop="10dp" >
+            </ListView>
+
+            <ListView
+                android:id="@+id/tab_threeitem_dividelistview"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:divider="#745855"
+                android:dividerHeight="8dp" 
+                android:layout_marginTop="10dp">
+            </ListView>
+            <ListView
+                android:id="@+id/tab_threeitem_listview_three"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:divider="#745855"
+                android:dividerHeight="1dp" >
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

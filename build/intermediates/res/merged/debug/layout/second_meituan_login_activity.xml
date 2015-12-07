@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F0F3"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#2FB7AA" >
+
+        <ImageView
+            android:id="@+id/secondlayout_title_back_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:clickable="true"
+            android:src="@drawable/selector_title_back" />
+
+        <ImageView
+            android:id="@+id/secondlayout_title_mei_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/secondlayout_title_back_img"
+            android:clickable="true"
+            android:src="@drawable/ic_action_home" />
+
+        <TextView
+            android:id="@+id/secondlayout_title_meishi_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/secondlayout_title_mei_img"
+            android:onClick="loginNow"
+            android:text="登录"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/secondlayout_title_find_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:onClick="findPassWord"
+            android:text="找回密码"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/secondlayout_title_fextline"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/secondlayout_title_find_password"
+            android:background="@drawable/vline"
+            android:gravity="center"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#FBFBFB"
+        android:paddingBottom="20dp" >
+
+        <EditText
+            android:id="@+id/login_username_editext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/selecto_login_clear_editbackground"
+            android:hint="手机/邮箱/用户名" />
+
+        <ImageView
+            android:id="@+id/login_clear_username_Imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/login_username_editext"
+            android:layout_alignRight="@id/login_username_editext"
+            android:layout_marginRight="5dp"
+            android:clickable="true"
+            android:src="@drawable/selecto_login_clear" />
+
+        <EditText
+            android:id="@+id/login_password_editext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_username_editext"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/selecto_login_clear_editbackground"
+            android:hint="密码" />
+
+        <ImageView
+            android:id="@+id/login_clear_password_Imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/login_password_editext"
+            android:layout_alignRight="@id/login_password_editext"
+            android:layout_marginRight="5dp"
+            android:clickable="true"
+            android:src="@drawable/selecto_login_clear" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/second_activity_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#2FB7AA"
+        android:text="登录"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" 
+        android:onClick="loginBtnSucess"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/login_register_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="免费注册"
+            android:textColor="#2FB7AA"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/login_nocount_login_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="无账号快捷登录"
+            android:textColor="#2FB7AA"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

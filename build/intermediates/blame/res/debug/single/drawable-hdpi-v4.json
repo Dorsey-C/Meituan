@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_order_list_btn_gray_normal.9.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\bg_order_list_btn_gray_normal.9.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_order_list_btn_orange_onpress.9.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\bg_order_list_btn_orange_onpress.9.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\map_ic_global_search_textbox_current.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\map_ic_global_search_textbox_current.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_holo_light.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\abc_ic_ab_back_holo_light.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_holo_light.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\abc_ic_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_order_list_btn_green_normal.9.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\bg_order_list_btn_green_normal.9.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_bar.9.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\title_bar.9.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_search_api_holo_light.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\abc_ic_clear_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_search_api_disabled_holo_light.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\abc_ic_clear_search_api_disabled_holo_light.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\widget_line.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\widget_line.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_order_list_btn_gray_onpress.9.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\bg_order_list_btn_gray_onpress.9.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\map_ic_global_search_textbox_normal.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\map_ic_global_search_textbox_normal.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\vline.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\vline.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_order_list_btn_green_onpress.9.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\bg_order_list_btn_green_onpress.9.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_holo_dark.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\abc_ic_ab_back_holo_dark.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg_order_list_btn_orange_normal.9.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\bg_order_list_btn_orange_normal.9.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_disabled.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\abc_ic_clear_disabled.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\abc_ic_search.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_listitem_arrow_right.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\ic_listitem_arrow_right.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_normal.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-hdpi\\abc_ic_clear_normal.png"
+    }
+]

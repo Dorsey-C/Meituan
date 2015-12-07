@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/mainactivity_viewpager_item0_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FCFCFC"
+        android:verticalSpacing="10dp"
+     android:paddingTop="10dp"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        >
+    </GridView>
+
+</LinearLayout>

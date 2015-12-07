@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/titlt_background" >
+
+        <ImageView
+            android:id="@+id/title_back_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:clickable="true"
+            android:src="@drawable/selector_title_back" />
+
+        <ImageView
+            android:id="@+id/title_mei_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/title_back_img"
+            android:clickable="true"
+            android:src="@drawable/ic_action_home" />
+
+        <TextView
+            android:id="@+id/title_meishi_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/title_mei_img"
+            android:text="美食"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/title_search_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:src="@drawable/selector_title_search" />
+
+        <ImageView
+            android:id="@+id/title_map_addres_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@id/title_search_img"
+            android:clickable="true"
+            android:src="@drawable/selector_title_map" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:background="@drawable/spinner_background">
+
+        <Spinner
+            android:id="@+id/meituan_spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:requiresFadingEdge="none"
+            android:layout_weight="1"
+            android:background="@drawable/selector_spiner_shop"
+            >
+
+
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/meituan_spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:requiresFadingEdge="none"
+            android:layout_weight="1"
+
+            android:background="@drawable/selector_spiner_shop"/>
+
+        <Spinner
+            android:id="@+id/meituan_spinner3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:requiresFadingEdge="none"
+            android:layout_weight="1"
+            android:background="@drawable/selector_spiner_shop"/>
+
+        <Spinner
+            android:id="@+id/meituan_spinner4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:requiresFadingEdge="none"
+            android:layout_weight="1"
+            android:background="@drawable/selector_spiner_shop"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F4F0F4" >
+
+        <ListView
+            android:id="@+id/meituan_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:divider="#00000000"
+            android:dividerHeight="10dp"
+            >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

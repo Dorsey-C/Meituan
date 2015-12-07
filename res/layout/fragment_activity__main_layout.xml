@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <RadioGroup
+        android:id="@+id/fragment_tab_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:background="#F3F3F3"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/fragment_tab_radio_deal_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_indector_selector_one"
+            android:gravity="center_horizontal"
+            android:paddingRight="20dp"
+            android:text="团购"
+            android:textColor="@drawable/tab_indector_textcolor_selector" />
+
+        <RadioButton
+            android:id="@+id/fragment_tab_radio_poi_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:paddingRight="20dp"
+            android:drawableTop="@drawable/tab_indector_selector_two"
+            android:gravity="center_horizontal"
+
+            android:text="商家"
+            android:textColor="@drawable/tab_indector_textcolor_selector" />
+
+        <RadioButton
+            android:id="@+id/fragment_tab_radio_user_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:paddingRight="20dp"
+            android:drawableTop="@drawable/tab_indector_selector_three"
+            android:gravity="center_horizontal"
+            android:text="我的"
+            android:textColor="@drawable/tab_indector_textcolor_selector" />
+
+        <RadioButton
+            android:id="@+id/fragment_tab_radio_more_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:paddingRight="20dp"
+            android:drawableTop="@drawable/tab_indector_selector_four"
+            android:gravity="center_horizontal"
+            android:text="更多"
+            android:textColor="@drawable/tab_indector_textcolor_selector" />
+    </RadioGroup>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragment_viewpager_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/fragment_tab_radio_group"/>
+</RelativeLayout>

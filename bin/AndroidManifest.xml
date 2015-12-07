@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xhsc.meituan"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MeituanStartFirstActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.xhsc.meituan.arraylistdata.MerchantTabTwoActivity" 
+            ></activity>
+        <activity 
+            android:name="com.xhsc.meituan.MTuanLoginActivity"
+           ></activity>
+        <activity 
+            android:name="com.xhsc.meituan.MTuanShowThreeActivity"
+           ></activity>
+        
+        <activity 
+            android:name="com.xhsc.meituan.MtuanMainActivity"
+           ></activity>
+        <activity 
+            android:name="com.xhsc.meituan.MtuanFirstTabContentActivity"
+           ></activity>
+        
+        <activity android:name="com.xhsc.meituan.tabthree.TabThreeActivity"></activity>
+        <activity android:name="com.xhsc.meituan.tabfour.TabFourContentActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 标题栏布局 -->
+<!-- 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#2FB7AA" >
+
+        <TextView
+            android:id="@+id/mainactivity_title_positioncity_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="成都"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/mainactivity_title_cityposition_spinner"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/mainactivity_title_positioncity_txt"
+            android:background="@drawable/spinner_bgd_no_pressed"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/mainactivity_title_position_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/selector_title_map" />
+
+        <EditText
+            android:id="@+id/mainactivity_title_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/mainactivity_title_position_map"
+            android:layout_toRightOf="@id/mainactivity_title_cityposition_spinner"
+            android:background="@drawable/hotel_poi_detail_album_num_bg"
+            android:hint="输入商家、分类或商圈"
+            android:paddingLeft="30dp"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/mainactivity_title_search_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/mainactivity_title_edit"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/selector_title_search" />
+    </RelativeLayout>
+     -->
+
+    <!-- 主页面内容切换引导TAb 自定义radioTab -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/title_bar"
+            android:visibility="gone" >
+        </TabWidget>
+		
+		
+		
+		
+		<!-- 自定义导向页按钮 -->
+        <RadioGroup
+            android:id="@+id/tab_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            
+            android:background="#F3F3F3"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/tab_radio_deal_one"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:drawableTop="@drawable/tab_indector_selector_one"
+                android:gravity="center_horizontal"
+                android:paddingRight="20dp"
+                android:text="团购"
+                android:textColor="@drawable/tab_indector_textcolor_selector" />
+
+            <RadioButton
+                android:id="@+id/tab_radio_poi_two"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:paddingRight="20dp"
+                android:drawableTop="@drawable/tab_indector_selector_two"
+                android:gravity="center_horizontal"
+                
+                android:text="商家"
+                android:textColor="@drawable/tab_indector_textcolor_selector" />
+
+            <RadioButton
+                android:id="@+id/tab_radio_user_three"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:paddingRight="20dp"
+                android:drawableTop="@drawable/tab_indector_selector_three"
+                android:gravity="center_horizontal"
+                android:text="我的"
+                android:textColor="@drawable/tab_indector_textcolor_selector" />
+
+            <RadioButton
+                android:id="@+id/tab_radio_more_four"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:paddingRight="20dp"
+                android:drawableTop="@drawable/tab_indector_selector_four"
+                android:gravity="center_horizontal"
+                android:text="更多"
+                android:textColor="@drawable/tab_indector_textcolor_selector" />
+        </RadioGroup>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/tab_radio_group" >
+
+            
+        </FrameLayout>
+    </RelativeLayout>
+
+</TabHost>

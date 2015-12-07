@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC" 
+    android:layout_marginTop="5dp">
+
+    
+
+    <ImageView
+        android:id="@+id/meituan_mybaseadapter_item_imageview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/meituan_image1"
+        android:layout_alignParentLeft="true"
+        android:scaleType="matrix"
+        android:src="@drawable/ic_label_nobooking" />
+
+    <TextView
+        android:id="@+id/meituan_mybaseadapter_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/meituan_mybaseadapter_item_imageview"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/meituan_mybaseadapter_item_imageview"
+        android:text="标题"
+        android:textSize="16sp"
+        
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/meituan_mybaseadapter_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/meituan_mybaseadapter_item_title"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/meituan_mybaseadapter_item_imageview"
+        android:text="内容"
+        android:textColor="#745855"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/meituan_mybaseadapter_item_nowprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/meituan_mybaseadapter_item_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/meituan_mybaseadapter_item_imageview"
+        android:text="40元"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/meituan_mybaseadapter_item_oldprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/meituan_mybaseadapter_item_nowprice"
+        android:layout_below="@id/meituan_mybaseadapter_item_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/meituan_mybaseadapter_item_nowprice"
+        android:textSize="12sp"
+        
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:textColor="#38BBB3" />
+
+    <TextView
+        android:id="@+id/meituan_mybaseadapter_item_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/meituan_mybaseadapter_item_nowprice"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/meituan_mybaseadapter_item_content"
+        android:layout_marginLeft="10dp"
+        android:text="评价"
+        android:textSize="10sp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="#666666" />
+
+</RelativeLayout>

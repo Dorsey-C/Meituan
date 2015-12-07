@@ -1,0 +1,137 @@
+[
+    {
+        "outputFile": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 38,
+                    "endOffset": 89
+                },
+                "from": {
+                    "file": "E:\\androidSutio\\meituan\\res\\values\\colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 94,
+                    "endColumn": 57,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "E:\\androidSutio\\meituan\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 152,
+                    "endColumn": 55,
+                    "endOffset": 203
+                },
+                "from": {
+                    "file": "E:\\androidSutio\\meituan\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 208,
+                    "endColumn": 52,
+                    "endOffset": 256
+                },
+                "from": {
+                    "file": "E:\\androidSutio\\meituan\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 261,
+                    "endColumn": 39,
+                    "endOffset": 296
+                },
+                "from": {
+                    "file": "E:\\androidSutio\\meituan\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 301,
+                    "endColumn": 69,
+                    "endOffset": 366
+                },
+                "from": {
+                    "file": "E:\\androidSutio\\meituan\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 269,
+                        "endColumn": 69,
+                        "endOffset": 334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 371,
+                    "endColumn": 52,
+                    "endOffset": 419
+                },
+                "from": {
+                    "file": "E:\\androidSutio\\meituan\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 424,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 710
+                },
+                "from": {
+                    "file": "E:\\androidSutio\\meituan\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 715,
+                    "endLine": 18,
+                    "endColumn": 12,
+                    "endOffset": 870
+                },
+                "from": {
+                    "file": "E:\\androidSutio\\meituan\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 875,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 924
+                },
+                "from": {
+                    "file": "E:\\androidSutio\\meituan\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    }
+]

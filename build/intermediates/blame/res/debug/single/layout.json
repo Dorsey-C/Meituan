@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\meituan_activity_main.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\meituan_activity_main.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\tab_one_listview_item_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\tab_one_listview_item_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\first_start_activity_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\first_start_activity_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\mainactivity_tab_content_item1_gridview_item.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\mainactivity_tab_content_item1_gridview_item.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\second_meituan_login_activity.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\second_meituan_login_activity.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\tab_three_content_my_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\tab_three_content_my_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\tabhost_content_item1_gridview_item_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\tabhost_content_item1_gridview_item_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\mtuan_mainactivity_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\mtuan_mainactivity_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_threeactivity_item3_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\viewpager_threeactivity_item3_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\mainactivity_viewpager_item0.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\mainactivity_viewpager_item0.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_threeactivity_item2_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\viewpager_threeactivity_item2_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_threeactivity_item0_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\viewpager_threeactivity_item0_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\deal_panic_buying_relayout_gridview_item_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\deal_panic_buying_relayout_gridview_item_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_threeactivity_item1_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\viewpager_threeactivity_item1_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\tab_four_listview_item_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\tab_four_listview_item_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_first_fragment_item_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\fragment_first_fragment_item_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_four_fragment_item_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\fragment_four_fragment_item_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_activity__main_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\fragment_activity__main_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\mainactivity_tabhost_content_item1.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\mainactivity_tabhost_content_item1.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_three_fragment_item_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\fragment_three_fragment_item_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_threeactivity_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\viewpager_threeactivity_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\mainactivity_viewpager_item1.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\mainactivity_viewpager_item1.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\tab_four_content_more_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\tab_four_content_more_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_two_fragment_item_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\fragment_two_fragment_item_layout.xml"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\layout\\tab_three_listview_item_layout.xml",
+        "source": "E:\\androidSutio\\meituan\\res\\layout\\tab_three_listview_item_layout.xml"
+    }
+]

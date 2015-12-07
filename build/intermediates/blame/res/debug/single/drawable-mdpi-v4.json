@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_disabled.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-mdpi\\abc_ic_clear_disabled.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_clear_enabled.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-mdpi\\ic_clear_enabled.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_ab_back_holo_dark.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-mdpi\\abc_ic_ab_back_holo_dark.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_normal.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-mdpi\\abc_ic_clear_normal.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_search_api_holo_light.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-mdpi\\abc_ic_clear_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_search_api_holo_light.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-mdpi\\abc_ic_search_api_holo_light.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_clear_disabled.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-mdpi\\ic_clear_disabled.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_search.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-mdpi\\abc_ic_search.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_clear_search_api_disabled_holo_light.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-mdpi\\abc_ic_clear_search_api_disabled_holo_light.png"
+    },
+    {
+        "merged": "E:\\androidSutio\\meituan\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_ab_back_holo_light.png",
+        "source": "E:\\androidSutio\\meituan\\res\\drawable-mdpi\\abc_ic_ab_back_holo_light.png"
+    }
+]

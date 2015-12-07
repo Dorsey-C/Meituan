@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/tab_three_listview_item_imageview_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+         />
+
+    <TextView
+        android:id="@+id/tab_three_listview_item_textview_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tab_three_listview_item_textview_name"
+        android:textColor="@color/hese"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tab_three_listview_item_textview_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tab_three_listview_item_textview_explain"
+        android:textSize="10sp" 
+        android:textColor="#666666"/>
+
+    <ImageView
+        android:id="@+id/ab_three_listview_item_imageview_jump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+         />
+    
+    <TextView
+        android:id="@+id/tab_three_listview_item_textview_remind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp" 
+        android:textColor="#666666"
+        android:layout_toLeftOf="@id/ab_three_listview_item_imageview_jump"
+        android:layout_marginRight="10dp"
+        />
+
+    
+
+</RelativeLayout>
